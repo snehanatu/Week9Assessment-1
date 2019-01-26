@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <title>New Student Information</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+</head>
+ <body>
+   
+   <h1>Thank You for Entering Your Information!</h1>
+   
+   <p>First Name: <span th:text="${firstName}"></span></p>
+   <p>Last Name:  <span th:text = "${lastName}"></span></p>
+   <p>Address:<span th:text = "${address}"></span></p>
+   <p>Email:      <span th:text="${email}"></span></p>
+   <p>Birthday:   <span th:text="${dateOfBirth}"></span></p>
+   
+   <hr>
+   <a href="/">Back to home page</a>  
+   
+ </body>
+</html>
